@@ -14,8 +14,9 @@ function Tag(parent, tagtype, attributes){
     this.jqid = this.setJqId();
     //this.id = (parent.charAt(0) == '#') ? parent.substring(1,parent.length) : parent;
     
-    this.id = (parent.charAt(0) == '#') ? parent.substring(1,parent.length) : parent + '_' + this.id;
-    alert(this.id);
+    this.id = (parent.charAt(0) == '#') ? parent.substring(1,parent.length) + 
+            '_' + this.id : parent + '_' + this.id;
+    alert('this id:' + this.id);
     this.attributes.id = this.id;
     return this;
 }
@@ -26,7 +27,7 @@ Tag.prototype.setJqId = function(){
         retval = this.jqid = '#' + this.attributes['id'];
         this.id = this.attributes['id'];
     }
-    
+    alert('setjqid: ' + this.jqid);
     return retval;
 };
 
@@ -36,7 +37,7 @@ Tag.prototype.setJqId = function(){
  */
 Tag.prototype.show = function(){
     var thispoi = this;
-    
+    alert('thispoiparent: ' + thispoi.parent);
     var tag = $("<" + thispoi.tagtype + "/>", thispoi.attributes).appendTo(thispoi.parent);
 };
 
@@ -79,7 +80,7 @@ Form.prototype.addField = function(attributes){
     var field_container = $('<div />', local_attributes).appendTo(thispoi.jqid);
     local_attributes = new Object({
         'title': attributes['title'],
-        'for': attributes['id'],
+        'for':  attributes['id'],
         'class': attributes['class'],
         'text': attributes['text']
     });

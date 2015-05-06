@@ -7,6 +7,7 @@ $(function (){
 function init(){
     var attr = new Object({
        'title': 'Ez a főcím szöveg jq',
+       //'id' :   'xxx',
        'text': 'Ez a főcím jq',
        'class': 'red'
     });
@@ -24,6 +25,7 @@ function init(){
     
     attr = new Object({
        'title': 'elso form',
+      // 'id' :   'form1',
        'method': 'POST',
        'action': 'http://localhost/alapok_jq/formsubmit.php'
     });
@@ -69,6 +71,6 @@ function init(){
     for (v in elsoform.fields[2].children(mit)){
         s += v + ' - ' + elsoform.fields[2].children(mit)[v];
     }
-    alert(s);
-    alert(elsoform.fields[2].children(mit).val());
+    //alert(s);
+    //alert(elsoform.fields[2].children(mit).val());
 }
