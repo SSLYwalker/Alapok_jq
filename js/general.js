@@ -1,74 +1,58 @@
-var focim;
+// Global variables
+var nav;
+var gombok = [];
 
-$(function (){
-    init();
-});
+
+
+
+
+// Functions
 
 function init(){
-    var attr = new Object({
-       'title': 'Ez a főcím szöveg jq',
-       'text': 'Ez a főcím jq',
-       'class': 'red'
-    });
-    
-    focim = new Tag('#container', 'h1', attr);
-    focim.show();
-    
-    attr = new Object({
-       'title': 'Ez a főcím paragrafus szöveg jq',
-       'text': 'Ez a főcím paragrafus jq',
-       'class': 'red'
-    });
-    bekezdes = new Tag(focim.jqid, 'p', attr);
-    bekezdes.show();
-    
-    attr = new Object({
-       'title': 'elso form',
-       'method': 'POST',
-       'action': 'http://localhost/alapok_jq/formsubmit.php'
-    });
-    elsoform = new Form('#container', attr);
-    elsoform.show();
-    attr = new Object({
-       'name': 'username',
-       'id': 'username',
-       'class': 'green',
-       'type': 'text',
-       'text': 'Felhasználónév: '
-    });
-    elsoform.addField(attr);
-    attr = new Object({
-       'name': 'age',
-       'id': 'age',
-       'class': 'green',
-       'type': 'text',
-       'text': 'Életkor: '
-    });
-    elsoform.addField(attr);
-    attr = new Object({
-       'name': 'address',
-       'id': 'address',
-       'class': 'green',
-       'type': 'text',
-       'text': 'Cím: ',
-       'value' : 'Budapest'
-    });
-    elsoform.addField(attr);
-    attr = new Object({
-       'name': 'password',
-       'id': 'password',
-       'class': 'green',
-       'type': 'password',
-       'text': 'Jelsző: '
-    });
-    elsoform.addField(attr);
-    
-    //alert(elsoform.fields[2]['label']);
-    var s = '';
-    var mit = 'input';
-    for (v in elsoform.fields[2].children(mit)){
-        s += v + ' - ' + elsoform.fields[2].children(mit)[v];
-    }
-    alert(s);
-    alert(elsoform.fields[2].children(mit).val());
+	var attrs = {
+		title : 'Navigátor',
+		//id : 'menu'
+		class :'menu'
+	};
+	nav = new Tag('#container', 'nav', attrs);
+	
+	attrs = [{
+			title : 'Első gomb',
+			id : 'elso',
+			text : 'Első',
+			class : 'nav-button'
+		},
+		{
+			title : 'Második gomb',
+			id : 'masodik',
+			text : 'Második',
+			class : 'nav-button'
+		},
+		{
+			title : 'Harmadik gomb',
+			id : 'harmadik',
+			text : 'Harmadik',
+			class : 'nav-button'
+		}			
+	];
+/*	
+	for(var i = 0; i < attrs.length; i++){
+		gombok[i]= new Tag('nav', 'button', attrs[i]);	
+		gombok[i].button();
+	}
+*/	
+	for(v in attrs){
+		gombok[v] =  new Tag('nav', 'button', attrs[v]);
+		gombok[v].button();
+	}
+	
+	
+	 
 }
+
+
+
+$(function(){
+	init();
+	//alert(nav.attr('id'));
+});
