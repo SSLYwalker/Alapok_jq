@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <?php 
+    require_once './docs/advancedmailer.php';
+    
+    $am = new advancedmailer(); 
+    ?>
 	<div id="container">
 	</div>
 </body>
