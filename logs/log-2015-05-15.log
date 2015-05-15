@@ -1,0 +1,98 @@
+SYSTEM  - 2015-05-15 10:27:19 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:27:19 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:27:19 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:27:19 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:27:19 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:27:19 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:27:20 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:30:22 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:30:22 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:30:22 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:30:22 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:30:22 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:30:22 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:30:22 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:30:40 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:30:40 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:30:40 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:30:40 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:30:40 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:30:40 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:30:40 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:31:25 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:31:25 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:31:25 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:31:25 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:31:25 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:31:25 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:31:25 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:32:05 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:32:05 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:32:05 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:32:05 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:32:05 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:32:05 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:32:05 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:32:35 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:32:35 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:32:35 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:32:35 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:32:35 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:32:35 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:32:35 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:33:09 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:33:09 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:33:09 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:33:09 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:33:09 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:33:09 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:33:09 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:33:26 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:33:26 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:33:26 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:33:26 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:33:26 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:33:26 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:33:26 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:33:53 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:33:53 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:33:53 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:33:53 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:33:53 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:33:53 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:33:53 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:34:25 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:34:25 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:34:25 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:34:25 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:34:25 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:34:25 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:34:25 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 10:34:49 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 10:34:49 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 10:34:49 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 10:34:49 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 10:34:49 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 10:34:49 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 10:34:49 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 11:16:39 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 11:16:39 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 11:16:39 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 11:16:39 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 11:16:39 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 11:16:39 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 11:16:39 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 11:17:18 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 11:17:18 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 11:17:18 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 11:17:18 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 11:17:18 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 11:17:18 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 11:17:18 --> pgsql csatlakozott fv
+SYSTEM  - 2015-05-15 13:07:52 --> utils helper is inited. version:1.0.0.2
+SYSTEM  - 2015-05-15 13:07:52 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
+SYSTEM  - 2015-05-15 13:07:52 --> logger helper is inited. version: 1.0.0.2
+SYSTEM  - 2015-05-15 13:07:52 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
+DEBUG   - 2015-05-15 13:07:52 --> called function: setloglevel with $level=4
+DEBUG   - 2015-05-15 13:07:52 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
+DEBUG   - 2015-05-15 13:07:53 --> pgsql csatlakozott fv

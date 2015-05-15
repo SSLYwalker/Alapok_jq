@@ -17,7 +17,7 @@
     
     $am = new advancedmailer(); 
     ?>
-	<div id="container">
+	<div id="tarolo">
 	</div>
 </body>
 </html>

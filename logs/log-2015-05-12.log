@@ -1,7 +1,0 @@
-SYSTEM  - 2015-05-12 13:28:35 --> utils helper is inited. version:1.0.0.2
-SYSTEM  - 2015-05-12 13:28:35 --> new dependency. the utils(1.0.0.2) HELPER depend from logger(1.0.0.2) HELPER
-SYSTEM  - 2015-05-12 13:28:35 --> logger helper is inited. version: 1.0.0.2
-SYSTEM  - 2015-05-12 13:28:35 --> new dependency. the logger(1.0.0.2) HELPER depend from utils(1.0.0.2) HELPER
-DEBUG   - 2015-05-12 13:28:35 --> called function: setloglevel with $level=4
-DEBUG   - 2015-05-12 13:28:35 --> host=192.168.100.211 port=5432 dbname=uj_database user=ozep password=895f529c options='--client_encoding=UTF8'
-DEBUG   - 2015-05-12 13:28:35 --> pgsql csatlakozott fv
